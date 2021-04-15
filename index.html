@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+​
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Go Real Cultural Corp.</title>
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet" type="text/css">
+</head>
+​
+<body>
+  <h1 class="text-center m-8 capitalize font-bold text-2xl text-green-500">Welcome to Go Real!</h1>
+
+  <div class="px-16 md:flex items-center bg-gray-100">
+    <div class="md:w-1/2 m-auto md:p-16">
+      <img class="rounded-xl" src="Logo.png">
+    </div>
+    <div class="md:w-1/2 p-8 space-y-4">
+      <h2 class="font-bold text-xl">Our Products</h2>
+      <p>Click <a href="product.html"class="underline">here</a> to learn more about our products</p>
+      <h2 class="font-bold text-xl">Founder Introduction</h2>
+      <p>Mr. Weber Lu is the founder and CEO of Go Real,click <a href="founder.html" class="underline">here</a> to see his intro </p>
+      <h2 class="font-bold text-xl">Investor Relations</h2>
+      <p>Our IPO is on the way, stay tuned!</p>
+    </div>
+  </div>
+​
+  <div class="m-8">
+    <h1 class="text-3xl font-bold text-center">Subscribe to our newsletter!</h1>
+​
+    <form netlify class="mx-auto mt-8 w-64">
+      <label class="block mt-4 font-bold" for="name">What is your name?</label>
+      <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-green-500 focus:border-green-500" type="text" id="name" name="name">
+
+      <label class="block mt-4 font-bold" for="email">Your Email</label>
+      <input class="p-2 w-64 border border-gray-400 rounded shadow-xl focus:outline-none focus:ring-green-500 focus:border-green-500" type="text" id="email" name="email">
+
+      <button class="block mt-4 text-white bg-green-500 rounded px-4 py-2">Subscribe!</button>
+    </form>
+  </div>
+</body>
+​
+</html>
